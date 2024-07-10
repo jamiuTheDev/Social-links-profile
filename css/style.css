@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    border-radius: 50%;
+    padding-top: 15px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #000;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.king{
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 8%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.ica{
+    font-weight: 400;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.don{
+    color: hsl(75, 94%, 57%);
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    Font-size: 14px;
+}
+
+.and{
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.link {
+    color: #fff;
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: white;
+}
+
+.attribution{
+    color: #fff;
+    margin-bottom: 25px;
+}
